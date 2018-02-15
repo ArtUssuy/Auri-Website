@@ -1,0 +1,71 @@
+body{
+    > header{
+        padding: 20px;
+        .content{
+            @include make-row();
+            > .logo_container{
+                @include make-md-column(4);
+                > .logo_container__logo{
+                    @include make-xs-column(12);
+                    @include make-sm-column-offset(4);
+                    @include make-md-column(12);
+                    @include make-md-column-offset(4);
+                    @include make-lg-column(12);
+                    @include make-lg-column-offset(0);
+                }   
+            }
+            > .search_container{
+                @include make-sm-column(12);
+                @include make-md-column(4);
+                @include make-md-column-offset(4);
+                @include make-lg-column(5);
+                @include make-lg-column-offset(3);
+                > input.form-control{
+                    height: 45px;
+                    font: 13px $font_main;
+                    margin-top: 15px;
+                }
+            }
+
+        }
+    }
+
+    > #navegacao{
+        background: #CA3034;
+        > .container{
+            > #navegacao__content{
+                .navbar{
+                    border-radius: 0;
+                    box-shadow: none;
+                    border: none;
+                    background:#CA3034;
+                    margin-bottom: 0;
+                    @include make-sm-column-offset(2);
+                    @include make-sm-column(9);
+                    @include make-md-column-offset(2);
+                    @include make-md-column(8);
+                    @include make-lg-column-offset(3);
+                    @include make-lg-column(5);
+                    .navbar-collapse {
+                        > ul.navbar-nav{
+                            > li{
+                                &.active{
+                                    a{
+                                        background: #882022;
+                                    }
+                                }
+                                a{
+                                    color: #fff;
+                                    font: bold 17px $font_main;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                
+                
+            }
+        }
+    }
+}   
