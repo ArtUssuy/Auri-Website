@@ -1,0 +1,25 @@
+div.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+  > div#myCaroulsel{
+    > div.carousel-inner{
+      div.item.active{
+
+      }
+      div.item{
+
+      }
+    }
+    a.left{
+      span.glyphicon{
+
+      }
+      span.sr-only{
+
+      }
+    }
+    a.right{
+
+    }
+  }
+}

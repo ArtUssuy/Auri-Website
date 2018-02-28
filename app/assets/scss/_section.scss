@@ -1,0 +1,14 @@
+div.section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  > div.container{
+    > div.row{
+      margin-bottom: 50px;
+      > div.col-md-4{
+        img{
+
+        }
+      }
+    }
+  }
+}

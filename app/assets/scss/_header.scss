@@ -1,0 +1,35 @@
+div.navbar-default.navbar{
+    background-color: #fff;
+    border-color: #fff;
+    margin-bottom: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  > div.container{
+    > div.navbar-header{
+      button{
+        > span{
+
+        }
+      }
+      a{
+
+      }
+    }
+    div.collpase{
+      > ul.nav{
+        li.active{
+          a{
+
+          }
+        }
+        li{
+          a{
+
+          }
+        }
+      }
+    }
+  }
+}
